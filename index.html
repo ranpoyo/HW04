@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!-- 宣告使用 HTML5；DOCTYPE 是文件類型宣告，不需要結束標籤。 -->
+<html lang="zh-Hant">
+<!-- html 包住整份文件；lang="zh-Hant" 表示主要使用繁體中文。 -->
+<head>
+    <!-- head 放網頁資訊；這些資訊不會直接成為頁面中的報導文字。 -->
+    <meta charset="UTF-8">
+    <!-- UTF-8 可正確處理中文；meta 是空元素，不寫結束標籤。 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport 讓行動裝置使用裝置寬度；不代表固定寬度的圖片會自動縮小。 -->
+    <meta name="description" content="走進台中宮原眼科，探索日治時期老建築轉型為文化創意與人氣甜點地標的歷史故事與參觀資訊。">
+    <!-- description 提供網頁摘要；author 標示作者。 -->
+    <meta name="author" content="D1430017 與那嶺藍">
+    <title>宮原眼科報導｜老建築與甜點美學的交會</title>
+    <!-- title 顯示在瀏覽器分頁；與 body 中的 h1 用途不同。 -->
+</head>
+
+<body>
+    <!--
+        第四次作業：一頁式台中宮原眼科報導。
+        本範例僅使用 HTML，保留瀏覽器預設呈現，不加入 CSS 或 JavaScript。
+        註解使用「小於符號、驚嘆號、兩個連字號」開始，並以兩個連字號及大於符號結束。
+        註解不會顯示於網頁，但讀者可從原始碼看見，因此不要放私人資料。
+        使用一致的四個空格縮排；成對標籤都明確寫出結束標籤。
+    -->
+
+    <!-- header 是頁首；id="top" 是下方「回到頁首」連結的目的地。 -->
+    <header id="top">
+        <!-- h1 是本頁主標題；h2 用於各章節，依內容階層選用標題。 -->
+        <h1>宮原眼科：老建築與甜點美學的交會</h1>
+        <p>從日治眼科醫院到現代文創地標，細讀台中舊城區的再生故事。</p>
+        <!-- time 的 datetime 以標準日期格式提供機器可讀的日期。 -->
+        <p>作者：D1430017 與那嶺藍｜報導整理日期：<time datetime="2026-10-07">2026 年 10 月 7 日</time></p>
+        <p><small>本文為資料整理型教學報導，非現場採訪紀錄。</small></p>
+    </header>
+
+    <!-- nav 表示導覽區；href="#名稱" 會跳到本頁相同 id 的元素。 -->
+    <nav aria-label="報導目錄">
+        <h2>報導目錄</h2>
+        <ul>
+            <li><a href="#intro">景點簡介</a></li>
+            <li><a href="#highlights">建築特色與參觀順序</a></li>
+            <li><a href="#table">參觀重點比較表</a></li>
+            <li><a href="#photo">歷史建築外觀照片</a></li>
+            <li><a href="#video">影音報導</a></li>
+            <li><a href="#sources">資料來源</a></li>
+        </ul>
+    </nav>
+
+    <!-- hr 表示內容主題的分隔，也是沒有結束標籤的空元素。 -->
+    <hr>
+
+    <!-- main 包住本頁主要內容；article 表示可獨立閱讀的完整報導。 -->
+    <main>
+        <article aria-label="台中宮原眼科專題報導">
+            <!-- section 將報導分成有標題的章節；同一頁中的 id 不可重複。 -->
+            <section id="intro">
+                <h2>一、景點簡介</h2>
+                <!-- p 表示段落；strong 強調重要資訊，不用來取代標題。 -->
+                <p>
+                    宮原眼科位於台中火車站前、綠川水岸旁，最早建造於 <strong>1927 年</strong>，
+                    原為日本眼科醫學博士宮原武熊所開設的診所，也是日治時期台中規模最大的私人醫院。
+                    戰後建築曾轉作為台中衛生院使用，歷經九二一大地震與歲月摧殘後一度成為荒廢危樓。
+                </p>
+                <p>
+                    民國 99 年（2010 年），在地知名糕餅品牌「日出」團隊接手這座殘破的老建築，
+                    結合專業建築師與結構專家進行修復與再造，歷時一年多將老屋活化。
+                    修復團隊完整保留了沿街立面的<strong>紅磚騎樓與斑駁木構</strong>，
+                    並於內部打造出彷彿哈利波特霍格華茲魔法學院般的挑高魔幻圖書館空間。
+                </p>
+                <p>
+                    如今的宮原眼科已轉型為集結糕餅手信、招牌冰淇淋與文化沙龍的超人氣景點，
+                    成為台灣歷史建築活化與地方創生的代表性成功範例。
+                    本篇整理宮原眼科的歷史轉折、特色重點與參觀建議，帶領讀者深入探索。
+                </p>
+                <!-- br 僅用於同段文字中需要的換行；不要用很多 br 製造間距。 -->
+                <p>景點地址：台中市中區中山路 20 號。<br>閱讀重點：歷史老屋再生、巴洛克紅磚騎樓、挑高圖書館空間與文創冰品。</p>
+            </section>
+
+            <section id="highlights">
+                <h2>二、建築特色與參觀順序</h2>
+                <h3>值得留意的三個特色</h3>
+                <!-- ul 是無序清單；li 是個別項目，適合不分先後的資訊。 -->
+                <ul>
+                    <li><strong>紅磚拱廊立面：</strong>保留日治時期的紅磚牆、古老木樑與牌樓，見證舊城區醫療歷史。</li>
+                    <li><strong>挑高魔幻書架：</strong>內部採用透光玻璃天花板與挑高達數層樓的大型木製書櫃，營造宏偉復古氛圍。</li>
+                    <li><strong>特色手作甜點：</strong>將傳統鳳梨酥、乳酪蛋糕融入多達數十種口味的冰淇淋，包裝亦具書籍設計美學。</li>
+                </ul>
+
+                <h3>建議參觀順序</h3>
+                <p>以下是本報導規劃的參觀順序建議，並非官方指定路線。</p>
+                <!-- ol 是有序清單；瀏覽器會依 li 的排列產生編號。 -->
+                <ol>
+                    <li>抵達中山路與綠川東街交口，先於戶外欣賞紅磚拱廊、斑駁古蹟立面與「台中市衛生院」歷史雕字。</li>
+                    <li>步入室內大廳，抬頭觀察自然採光的天窗與直達天花板的復古書架裝潢。</li>
+                    <li>前往冰淇淋專區或伴手禮區，品嚐獨特口味的冰品並欣賞精緻書籍造型的糕餅禮盒。</li>
+                    <li>漫步至建築外的綠川水岸步道，在河畔綠意中品嚐甜點並回望老建築全貌。</li>
+                </ol>
+            </section>
+
+            <section id="table">
+                <h2>三、參觀重點比較表</h2>
+                <!--
+                    table 用於呈現資料，不用來排版整個網頁。
+                    本作業維持純 HTML，表格沒有額外的框線樣式。
+                    不使用已過時的 border、cellpadding、cellspacing 屬性。
+                -->
+                <table border="1">
+                    <!-- caption 是表格標題，放在 table 內最前面。 -->
+                    <caption>宮原眼科三大核心區域的特色與觀察重點</caption>
+                    <!-- thead 包住表頭；tr 是一橫列；th 是標題儲存格。 -->
+                    <thead>
+                        <tr>
+                            <!-- scope="col" 表示這個 th 是整欄的標題。 -->
+                            <th scope="col">空間區域</th>
+                            <th scope="col">主要特色</th>
+                            <th scope="col">建議觀察重點</th>
+                        </tr>
+                    </thead>
+                    <!-- tbody 包住資料列；td 是一般資料儲存格。 -->
+                    <tbody>
+                        <tr>
+                            <!-- scope="row" 表示這個 th 是本列的標題。 -->
+                            <th scope="row">紅磚騎樓外觀</th>
+                            <td>建於 1927 年的日治磚木建築遺跡</td>
+                            <td>外牆斑駁的歷史磚紋、騎樓圓拱與洗石子結構</td>
+                        </tr>
+                        <tr>
+                            <!-- scope="row" 表示這個 th 是本列的標題。 -->
+                            <th scope="row">中央挑高大廳</th>
+                            <td>老屋再生融合現代設計的書閣殿堂</td>
+                            <td>頂部透光玻璃天頂、垂直大型展示書櫃與復古燈飾</td>
+                        </tr>
+                        <tr>
+                            <!-- scope="row" 表示這個 th 是本列的標題。 -->
+                            <th scope="row">綠川水岸周邊</th>
+                            <td>緊鄰宮原眼科的新盛綠川水岸廊道</td>
+                            <td>親水綠帶景觀及日夜燈光倒映老建築的景致</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="photo">
+                <h2>四、歷史建築外觀照片</h2>
+                <!-- figure 將圖片與圖說組成一個單位；figcaption 是圖說。 -->
+                <figure>
+                    <!--
+                        img 是空元素，不寫 /img 結束標籤。
+                        src 指定圖片網址；本範例使用相對路徑本機圖片。
+                        alt 描述照片內容，圖片未載入時或使用螢幕閱讀器時仍可理解。
+                        width 控制顯示寬度；未指定 height，瀏覽器依原圖比例顯示。
+                    -->
+                    <img
+                        src="Miyahara.jpg"
+                        alt="台中宮原眼科紅磚歷史建築外觀"
+                        width="480">
+                    <figcaption>
+                        宮原眼科保留了日治時期的紅磚騎樓與典雅拱廊結構。
+                        圖片來源：<a href="https://zh.wikipedia.org/zh-tw/%E5%AE%AE%E5%8E%9F%E7%9C%BC%E7%A7%91" target="_blank" rel="noopener noreferrer">維基百科：宮原眼科</a>。
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section id="video">
+                <h2>五、影音報導</h2>
+                <p>透過下方影片走訪宮原眼科，感受老建築活化再利用的氛圍與熱門甜點魅力：</p>
+                <!--
+                    iframe 將 YouTube 播放器嵌入本頁，需要明確的結束標籤。
+                    src 使用 /embed/影片ID，不是一般的 /watch?v=影片ID 網址。
+                    width、height 設定播放器尺寸；title 說明嵌入內容。
+                    allow 開放所列功能；allowfullscreen 允許全螢幕播放。
+                    referrerpolicy 保留跨站來源資訊；仍須由瀏覽器提供有效來源。
+                    直接開本機檔案時，YouTube 可能因缺少 HTTP Referer 而出現錯誤 153。
+                    若發生此情況，請用本機 HTTP 伺服器預覽，或使用下方原始影片連結。
+                    播放也取決於網路、YouTube 及發布者的嵌入設定。
+                -->
+                <iframe
+                    width="480"
+                    height="270"
+                    src="https://www.youtube.com/embed/bLUxUHmhQEs"
+                    title="宮原眼科介紹影片"
+                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+                <!-- a 提供一般影片連結；播放器無法播放時仍能前往 YouTube。 -->
+                <p>
+                    若播放器無法播放，請
+                    <a href="https://www.youtube.com/watch?v=bLUxUHmhQEs" target="_blank" rel="noopener noreferrer">在 YouTube 觀看宮原眼科介紹影片（另開分頁）</a>。
+                </p>
+                <p><small>影片為外部創作者實地走訪介紹，各項販售內容與現場動線請以官方最新公告為準。</small></p>
+            </section>
+
+            <section id="sources">
+                <h2>六、資料來源</h2>
+                <p>本報導依下列官方與公開資料整理，參觀順序與重點觀察由作者規劃整理。</p>
+                <!--
+                    target="_blank" 另開分頁；rel 保護開啟新頁面的關聯。
+                    網址中的 & 在 HTML 原始碼中寫成 &amp;。
+                -->
+                <ul>
+                    <li><a href="https://travel.taichung.gov.tw/zh-tw/attractions/intro/793" target="_blank" rel="noopener noreferrer">臺中觀光旅遊網：宮原眼科景點介紹</a></li>
+                    <li><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0042291&amp;uid=25" target="_blank" rel="noopener noreferrer">交通部觀光署：台中舊城區漫遊介紹</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=bLUxUHmhQEs" target="_blank" rel="noopener noreferrer">YouTube：宮原眼科超人氣景點與特色介紹</a></li>
+                </ul>
+                <p><small>資料整理日期：2026 年 10 月 7 日。</small></p>
+            </section>
+        </article>
+    </main>
+
+    <hr>
+    <!-- footer 是頁尾；來源與作者標示應依自己的作品修改。 -->
+    <footer>
+        <p>第四次 HTML 作業｜台中景點報導：宮原眼科</p>
+        <p><a href="#top">回到頁首</a></p>
+    </footer>
+</body>
+</html>
